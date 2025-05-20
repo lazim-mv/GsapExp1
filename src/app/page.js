@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       <ServicesComponent isMobile={isMobile} />
       <Hero isMobile={isMobile} />
-      <div style={{ height: "100vh", background: "crimson" }}></div>
+      <div style={{ height: "100vh" }}></div>
     </main>
   );
 }
