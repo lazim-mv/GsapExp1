@@ -61,7 +61,6 @@ const ServicesComponent = ({ isMobile }) => {
                 start: "top top",
                 end: "bottom bottom",
                 scrub: true,
-                markers: true,
                 onUpdate: (self) => {
                     if (self.progress > 0.01) {
                         header.classList.add(headerStyles.hiddenHeader);
