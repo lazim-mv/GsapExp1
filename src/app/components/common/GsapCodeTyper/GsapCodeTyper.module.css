@@ -1,0 +1,61 @@
+.codeContainer {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: 'Consolas', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.codeContainer code {
+    display: flex;
+    gap: 1rem;
+}
+
+.lineNumbers {
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    user-select: none;
+    text-align: right;
+    padding-right: 0.5rem;
+    border-right: 1px solid #333;
+}
+
+.codeContent {
+    flex: 1;
+    color: #d4d4d4;
+    position: relative;
+}
+
+.codeLine {
+    min-height: 1.5em;
+    white-space: pre;
+    padding-left: 1rem;
+}
+
+/* Syntax highlighting */
+.codeLine[data-text*="<!DOCTYPE"] { color: #808080; }
+.codeLine[data-text*="<"] { color: #569CD6; }
+.codeLine[data-text*=">"] { color: #569CD6; }
+.codeLine[data-text*="meta"] { color: #9CDCFE; }
+.codeLine[data-text*="title"] { color: #9CDCFE; }
+.codeLine[data-text*="div"] { color: #9CDCFE; }
+.codeLine[data-text*="script"] { color: #9CDCFE; }
+.codeLine[data-text*="charset"] { color: #9CDCFE; }
+.codeLine[data-text*="UTF-8"] { color: #CE9178; }
+.codeLine[data-text*="index.js"] { color: #CE9178; }
+
+.cursor {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    color: #fff;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}

@@ -1,0 +1,26 @@
+/* .activeServiceComponent {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    z-index: 10;
+    opacity: 1;
+    pointer-events: all;
+    overflow-y: auto !important;
+} */
+
+/* html.lenis {
+    height: auto;
+} */
+
+
+.scrollable {
+    position: relative;
+    /* min-height: 200vh; */
+    height: max-content;
+    /* top: 120vh; */
+    pointer-events: all;
+    margin-top: 0;
+}

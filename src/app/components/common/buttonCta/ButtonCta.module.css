@@ -1,0 +1,4 @@
+.container{
+    padding: var(--14px) var(--32px);
+    background: var(--invert-bg-color);
+}
