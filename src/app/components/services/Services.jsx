@@ -17,7 +17,7 @@ const ServicesComponent = ({ isMobile }) => {
         },
         {
             title: "Web Design",
-            media: "/videos/5.mp4",
+            media: "/videos/8.mp4",
             description: "Our designs blend sleek aesthetics with seamless usability, helping you captivate users and turn visitors into customers. We build engaging, responsive interfaces that make your brand stand out online."
         },
         {
@@ -27,7 +27,7 @@ const ServicesComponent = ({ isMobile }) => {
         },
         {
             title: "Digital Marketing",
-            media: "/videos/8.mp4",
+            media: "/videos/5.mp4",
             description: "We help your brand get noticed, generate leads, and drive sales through targeted digital marketing strategies tailored to maximize ROI across SEO, social media, and paid campaigns."
         },
         {
